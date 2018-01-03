@@ -1,13 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package scoretime;
 
 import java.awt.Color;
@@ -42,19 +32,12 @@ public class ScoreTime extends javax.swing.JFrame {
     public static boolean timerMade = false;
     public static  javax.swing.Timer sTimer;
     
-    
-    /**
-     * Creates new form ScoreTime
-     */
     public ScoreTime() {
         initComponents();
         sTimer = new javax.swing.Timer(1000, timerStartButton.getActionListeners()[0]);
         displayScores();
     }
     
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
